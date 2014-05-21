@@ -1,0 +1,1 @@
+xdg-mime default GSNotifier.desktop x-scheme-handler/gsnotifier

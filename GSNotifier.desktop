@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+
+# This file should be located at ~/.local/share/applications/GSNotifier.desktop
+# Desktop Entry file for register with xdg-open/xdg-mime:
+# xdg-mime default GSNotifier.desktop x-scheme-handler/gsnotifier
+
+[Desktop Entry]
+Categories=Utility;
+Exec=/home/its32ja1/grooveshark_notify.sh %U
+Icon=/home/its32ja1/Pictures/Logos/GrooveShark.png
+Name=Grooveshark Notifier
+StartupNotify=true
+StartupWMClass=GroovesharkNotifier
+Terminal=false
+Type=Application
+Version=1.0
+X-MultipleArgs=false
+Name[en_US]=GroovesharkNotifier
+OnlyShowIn=Old # this makes gnome-shell to not show file
